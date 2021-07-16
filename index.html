@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <title>Black Friday</title>
+</head>
+<body>
+    <header>
+        <h2> Promoções com até 60% OFF, Aproveite!!!</h2>
+    </header>
+    
+    <div class="formu">
+        <form method="GET">
+            <h1>Se Increva para receber as promoções!</h1>
+            <div class="Inputs">
+            <label class="sr-only" for="Formulário-Promo"></label>
+            <input class="inputWidth" type="text" id="name" name="name" placeholder="Nome">
+            <input class="inputWidth" id="email" type="email" name="email" placeholder="E-mail">
+           </div>
+            <select name="Place">
+                <option value="">Selecione</option>
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="BA">Amazonas</option>
+                <option value="CE">Ceará</option>
+                <option value="DF">Distrito Federal</option>
+                <option value="ES">Espirito Santo</option>
+                <option value="GO">Goiás</option>
+                <option value="MA">Maranhão</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="PA">Pará</option>
+                <option value="PB">Paraíba</option>
+                <option value="PR">Paraná</option>
+                <option value="PE">Pernambuco</option>
+                <option value="PI">Piauí</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="SP">São Paulo</option>
+                <option value="SE">Sergipe</option>
+                <option value="TO">Tocantins</option>
+    
+
+            </select><br>
+            <input type="checkbox"> Eu aceito receber os e-mails de promoção. <br>
+         <div class="botão"> 
+            <button onclick ="enviar()" type="button" id="button" > Enviar </button>
+            <div id="enviado"></div>
+        </div> 
+        </form>
+    </div>
+    <div class="blackFriday">
+        <h1>
+            Black Friday
+        </h1>
+        <p>Quer que nós te avisemos sobre as nossas promoções de Black Friday?!<b> Complete ao lado!!</b> </p>
+        <p> Fique ligado no seu e-mail que logo começaremos a te mandar as promoções, aproveite!!</p>
+    </div>
+
+    <footer>
+        <div>
+            <a href="https://github.com/Azevas1"> <img class="fixed" src="/assets/github.png"> </a>
+           <a href="https://www.linkedin.com/in/lucas-azevedo-b94b71164/"> <img class="fixed2" src="/assets/linkedin.png"> </a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

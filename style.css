@@ -1,0 +1,141 @@
+*{
+    font-family: russo one;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: linear-gradient(100deg, rgb(12, 129, 184),rgb(98, 0, 128));
+     height: 100vh;
+}
+header{
+    padding: 1rem;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    font-family: "Russo One";
+    color:#fcfcfaf5;
+    letter-spacing: 10px;
+    width: 100%;
+}
+
+
+    
+.formu{
+    
+    display: flex;
+    align-items: center;
+    width: 23.3rem;
+    box-shadow: 10px 5px 5px ;
+    float: right;
+    padding: 1rem;
+    background-color:rgba(245, 222, 179, 0.247);
+    border-radius: 15px;
+    margin-right: 20rem;
+    margin-top: 4rem;
+    box-sizing: content-box;
+    color: black ;
+    
+}
+form > h1 {
+    font-family: "Russo one";
+}
+
+.sr-only{
+    position: absolute;
+    height: 1px;
+    width: 1px;
+    padding:0 ;
+    margin: -1px;
+    overflow: hidden;
+    clip-path: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+
+.inputWidth{
+
+    padding: 6px;
+    width: 18rem;
+
+}
+
+.Inputs{
+    margin-top: 2rem;
+}
+select{
+    padding: .2rem;
+}
+input, select{
+    
+    margin: .4rem;
+    background-color: rgb(240, 232, 232);
+    border-radius: 10px;
+
+}
+
+#button{
+    padding: 5px;
+    width: 7rem;
+    border-radius: 5rem;
+    border: 2px solid black;
+    margin-top: 3px;
+    background: linear-gradient(100deg, rgb(12, 130, 184),rgb(98, 0, 128));
+    letter-spacing: 2px;
+    cursor: pointer;
+    background-size: 200%;
+    transition: .5s ease-in-out;
+}
+
+#button:hover{
+    background-position: right;
+    
+}
+.botão{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-top: 2.5rem;
+    
+}
+
+
+img{
+    padding: 1rem;
+}
+
+.blackFriday{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 8rem;
+    margin-left: 6rem;
+    width: 600px;
+    font-size: 2rem;
+    box-shadow: 10px 5px 5px;
+    border-radius: 15px;
+    padding: 2rem;
+    background-color: rgba(245, 222, 179, 0.247);
+    box-sizing: content-box;
+    float: left;
+}
+.blackFriday > h1{
+
+    font-size: 6rem;
+
+}
+.fixed{
+    
+    position: fixed;
+    right: 20px;
+    bottom: 0;
+}
+
+.fixed2{
+    position: fixed;
+    right: 20px;
+    bottom: 4rem;
+}
+
