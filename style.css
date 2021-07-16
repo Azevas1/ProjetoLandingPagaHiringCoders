@@ -16,8 +16,9 @@ header{
     height: 3rem;
     font-family: "Russo One";
     color:#fcfcfaf5;
+    box-sizing: border-box;
     letter-spacing: 10px;
-    width: 100%;
+    
 }
 
 
